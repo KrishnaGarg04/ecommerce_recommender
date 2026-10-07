@@ -1,0 +1,80 @@
+{
+  "adaptive": {
+    "tau": 5.0,
+    "w_fixed": null,
+    "alpha": 0.5,
+    "beta": 0.1,
+    "gamma": 0.1,
+    "sim": "jaccard"
+  },
+  "fixed": {
+    "tau": 5.0,
+    "w_fixed": 0.5,
+    "alpha": 0.5,
+    "beta": 0.1,
+    "gamma": 0.1,
+    "sim": "cosine"
+  },
+  "diffs": {
+    "blend tuned, fixed w - blend tuned, adaptive w | Hit@10": [
+      0.004333333333333333,
+      -0.001,
+      0.0095
+    ],
+    "blend tuned, fixed w - blend tuned, adaptive w | NDCG@10": [
+      0.0011333497836146047,
+      -0.00202305580069878,
+      0.0043215530378274275
+    ],
+    "blend tuned, adaptive w - centroid tf-idf (content) | Hit@10": [
+      0.034833333333333334,
+      0.028,
+      0.04150416666666665
+    ],
+    "blend tuned, adaptive w - centroid tf-idf (content) | NDCG@10": [
+      0.02324055457443928,
+      0.019153082814917597,
+      0.02760225795363971
+    ],
+    "blend tuned, fixed w - centroid tf-idf (content) | Hit@10": [
+      0.03916666666666667,
+      0.03133333333333333,
+      0.04616666666666667
+    ],
+    "blend tuned, fixed w - centroid tf-idf (content) | NDCG@10": [
+      0.024373904358053887,
+      0.0195275375557431,
+      0.028988490323917152
+    ],
+    "blend tuned, adaptive w - blend default (tau=5, no g(d)) | Hit@10": [
+      0.022833333333333334,
+      0.017666666666666667,
+      0.028337499999999977
+    ],
+    "blend tuned, adaptive w - blend default (tau=5, no g(d)) | NDCG@10": [
+      0.011806678845366568,
+      0.008992843333196969,
+      0.014856422364541816
+    ],
+    "blend default (tau=5, no g(d)) - centroid tf-idf (content) | Hit@10": [
+      0.012,
+      0.006833333333333334,
+      0.017166666666666667
+    ],
+    "blend default (tau=5, no g(d)) - centroid tf-idf (content) | NDCG@10": [
+      0.011433875729072715,
+      0.008236209181936604,
+      0.01486128395630462
+    ],
+    "blend tuned, adaptive w - popularity | Hit@10": [
+      0.05466666666666667,
+      0.04833333333333333,
+      0.0615
+    ],
+    "blend tuned, adaptive w - popularity | NDCG@10": [
+      0.03508556463480614,
+      0.03073493722121393,
+      0.03964655231668238
+    ]
+  }
+}

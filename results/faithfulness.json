@@ -1,0 +1,7 @@
+{
+  "n": 600,
+  "cited_drop_rate": 0.86,
+  "control_drop_rate": 0.30666666666666664,
+  "cited_mean_rank_shift": 33.92166666666667,
+  "control_mean_rank_shift": 1.7816666666666667
+}
